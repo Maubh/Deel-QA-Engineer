@@ -1,0 +1,32 @@
+{
+  "name": "Deel-QA-Engineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --headless --browser chrome",
+    "report:merge": "mochawesome-merge > index.json",
+    "report:mocha": "marge index.json",
+    "report:clean": "rm -rf mochawesome-report index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maubh/Deel-QA-Engineer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maubh/Deel-QA-Engineer/issues"
+  },
+  "homepage": "https://github.com/Maubh/Deel-QA-Engineer#readme",
+  "devDependencies": {
+    "cypress": "^12.0.1",
+    "cypress-multi-reporters": "^1.6.1",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
