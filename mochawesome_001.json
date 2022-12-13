@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 1,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2022-12-13T01:24:38.239Z",
-    "end": "2022-12-13T01:24:43.871Z",
-    "duration": 5632,
+    "failures": 1,
+    "start": "2022-12-13T01:54:38.944Z",
+    "end": "2022-12-13T01:55:05.596Z",
+    "duration": 26652,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bb7c12e3-8830-4a74-88e9-1fe3dcdf7a4f",
+      "uuid": "3a84b4a9-4e45-4afa-9c1c-9083170aa033",
       "title": "",
       "fullFile": "cypress/e2e/test_login.cy.js",
       "file": "cypress/e2e/test_login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0981a9f9-40d2-4d2b-b7a4-fa5b15ae3857",
+          "uuid": "b2e39dfa-9503-429a-8b96-36641560c30d",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,33 @@
               "title": "",
               "fullTitle": "Login ",
               "timedOut": null,
-              "duration": 5608,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
+              "duration": 26569,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
-              "code": "cy.get('#mui-2').type('Hello');",
-              "err": {},
-              "uuid": "a0f2c46b-fced-41ab-bbe6-bbd1696f88ee",
-              "parentUUID": "0981a9f9-40d2-4d2b-b7a4-fa5b15ae3857",
+              "code": "cy.get('#mui-').type('Hello');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 25000ms: Expected to find element: `#mui-`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 25000ms: Expected to find element: `#mui-`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/test_login.cy.js:10:7)",
+                "diff": null
+              },
+              "uuid": "c4974e09-5714-4ce8-9875-2d3942b663fc",
+              "parentUUID": "b2e39dfa-9503-429a-8b96-36641560c30d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "a0f2c46b-fced-41ab-bbe6-bbd1696f88ee"
+          "passes": [],
+          "failures": [
+            "c4974e09-5714-4ce8-9875-2d3942b663fc"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5608,
+          "duration": 26569,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
