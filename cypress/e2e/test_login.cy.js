@@ -7,7 +7,7 @@ context('Login', () => {
   })
 
   it('', () => {
-    cy.get('#mui-').type('Hello')
+    cy.get('#mu-').type('Hello')
 
   });
 });
