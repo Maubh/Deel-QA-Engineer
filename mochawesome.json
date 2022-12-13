@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-13T02:32:05.084Z",
-    "end": "2022-12-13T02:32:06.450Z",
-    "duration": 1366,
+    "start": "2022-12-13T02:41:05.508Z",
+    "end": "2022-12-13T02:41:09.463Z",
+    "duration": 3955,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ca0ce26f-3fa6-4636-bbe5-c935eb4c1605",
+      "uuid": "37b0d337-3929-4b42-9e1f-556e7f9fe1fc",
       "title": "",
       "fullFile": "cypress/e2e/test_login.cy.js",
       "file": "cypress/e2e/test_login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1f2266cd-de66-47a0-89d2-d8966ea95129",
+          "uuid": "d92fdfbd-80f7-413c-bd67-42de509682f4",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "",
               "fullTitle": "Login ",
               "timedOut": null,
-              "duration": 1148,
+              "duration": 3783,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "// cy.get('#mui-').type('Hello')",
               "err": {},
-              "uuid": "9ce0cac0-2a13-4d60-8697-23e0899f91e7",
-              "parentUUID": "1f2266cd-de66-47a0-89d2-d8966ea95129",
+              "uuid": "39a4fa4a-8693-4f71-b0b3-0df10f75a4f6",
+              "parentUUID": "d92fdfbd-80f7-413c-bd67-42de509682f4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9ce0cac0-2a13-4d60-8697-23e0899f91e7"
+            "39a4fa4a-8693-4f71-b0b3-0df10f75a4f6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1148,
+          "duration": 3783,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
