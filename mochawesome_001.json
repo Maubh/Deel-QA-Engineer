@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2022-12-13T02:03:36.701Z",
-    "end": "2022-12-13T02:04:03.697Z",
-    "duration": 26996,
+    "start": "2022-12-13T02:11:43.320Z",
+    "end": "2022-12-13T02:12:10.389Z",
+    "duration": 27069,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "80fefd65-18a3-414a-aee7-1f044bce0222",
+      "uuid": "6a947a05-7e6a-4194-8d18-500432a44dda",
       "title": "",
       "fullFile": "cypress/e2e/test_login.cy.js",
       "file": "cypress/e2e/test_login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9d19bebb-d6e3-467c-ba5c-f4915f070066",
+          "uuid": "2f4467d5-877d-4cc3-a911-7563b626edb3",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "",
               "fullTitle": "Login ",
               "timedOut": null,
-              "duration": 26917,
+              "duration": 26984,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 25000ms: Expected to find element: `#mu-`, but never found it.\n    at Context.eval (webpack:///./cypress/e2e/test_login.cy.js:10:7)",
                 "diff": null
               },
-              "uuid": "78e58936-c7fc-450b-953e-8834c7896338",
-              "parentUUID": "9d19bebb-d6e3-467c-ba5c-f4915f070066",
+              "uuid": "9c665ed4-5274-47b9-9554-57e8c07b8b8a",
+              "parentUUID": "2f4467d5-877d-4cc3-a911-7563b626edb3",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "78e58936-c7fc-450b-953e-8834c7896338"
+            "9c665ed4-5274-47b9-9554-57e8c07b8b8a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 26917,
+          "duration": 26984,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
