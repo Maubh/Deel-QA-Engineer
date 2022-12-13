@@ -2,13 +2,13 @@
 
 
 context('Login', () => {
-    beforeEach(() => {
-      cy.visit('')
-    })
+  beforeEach(() => {
+    cy.visit('')
+  })
 
-    it('', () => {
-        
-    });
+  it('', () => {
+    cy.get('#mui-2').type('Hello')
 
+  });
 });
 
