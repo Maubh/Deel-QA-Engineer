@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-12-13T01:24:38.239Z",
-    "end": "2022-12-13T01:24:43.871Z",
-    "duration": 5632,
+    "start": "2022-12-13T02:32:05.084Z",
+    "end": "2022-12-13T02:32:06.450Z",
+    "duration": 1366,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bb7c12e3-8830-4a74-88e9-1fe3dcdf7a4f",
+      "uuid": "ca0ce26f-3fa6-4636-bbe5-c935eb4c1605",
       "title": "",
       "fullFile": "cypress/e2e/test_login.cy.js",
       "file": "cypress/e2e/test_login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0981a9f9-40d2-4d2b-b7a4-fa5b15ae3857",
+          "uuid": "1f2266cd-de66-47a0-89d2-d8966ea95129",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "",
               "fullTitle": "Login ",
               "timedOut": null,
-              "duration": 5608,
+              "duration": 1148,
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.get('#mui-2').type('Hello');",
+              "code": "// cy.get('#mui-').type('Hello')",
               "err": {},
-              "uuid": "a0f2c46b-fced-41ab-bbe6-bbd1696f88ee",
-              "parentUUID": "0981a9f9-40d2-4d2b-b7a4-fa5b15ae3857",
+              "uuid": "9ce0cac0-2a13-4d60-8697-23e0899f91e7",
+              "parentUUID": "1f2266cd-de66-47a0-89d2-d8966ea95129",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a0f2c46b-fced-41ab-bbe6-bbd1696f88ee"
+            "9ce0cac0-2a13-4d60-8697-23e0899f91e7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5608,
+          "duration": 1148,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
