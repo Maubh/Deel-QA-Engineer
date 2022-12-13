@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Cypress Report
 
 # Controls when the action will run. 
 on:
@@ -42,12 +42,18 @@ jobs:
       - run: npm run cy:run
         continue-on-error: true
         
+      - name: Copy test execution videos and screenshots
+        run: |
+            mkdir public
+            cp -r cypress/videos public/videos
+            cp -r cypress/screenshots public/screenshots
+      
     # Generate HTML report
       - run: npm run report:merge
       - run: npm run report:mocha
-     
+    
 
-    # Publicar relatório em HTML
+    # Deploy report page to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
