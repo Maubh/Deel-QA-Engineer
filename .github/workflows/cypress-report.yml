@@ -41,12 +41,6 @@ jobs:
     # Execute tests using mochawesome-report
       - run: npm run cy:run
         continue-on-error: true
-        
-      - name: Copy test execution videos and screenshots
-        run: |
-            mkdir public
-            cp -r cypress/videos public/videos
-            cp -r cypress/screenshots public/screenshots
       
     # Generate HTML report
       - run: npm run report:merge
